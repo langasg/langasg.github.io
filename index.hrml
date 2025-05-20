@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texto Amigable para Dislexia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/opendyslexic-web@1.0.0/opendyslexic.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Extractor de Texto Disléxico</h1>
+    <input type="file" accept="image/*" id="imageInput" />
+    <div id="loading">Procesando imagen...</div>
+    <div id="output" class="dyslexic-text"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
