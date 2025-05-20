@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+  white-space: pre-wrap;
+  background: #e8f0fe;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.dyslexic-text {
+  font-family: 'OpenDyslexic', Arial, sans-serif;
+}
+
+#loading {
+  display: none;
+  font-style: italic;
+  color: #555;
+  margin-top: 15px;
+}
