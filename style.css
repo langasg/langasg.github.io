@@ -26,10 +26,15 @@ h1 {
   padding: 15px;
   border-radius: 8px;
 }
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('fonts/OpenDyslexic-Regular.ttf') format('truetype');
+}
 
 .dyslexic-text {
   font-family: 'OpenDyslexic', Arial, sans-serif;
 }
+
 
 #loading {
   display: none;
@@ -37,6 +42,4 @@ h1 {
   color: #555;
   margin-top: 15px;
 }
-body, .dyslexic-text {
-  font-family: 'OpenDyslexic', Arial, sans-serif !important;
-}
+
